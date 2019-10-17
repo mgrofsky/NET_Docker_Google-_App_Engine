@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <RootNamespace>NET_Docker_Google__App_Engine</RootNamespace>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>5e3d06a7-5c53-4b56-8efb-c16a142c8e7a</UserSecretsId>
   </PropertyGroup>
 
 

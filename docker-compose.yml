@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  net_docker_google-_app_engine:
+    image: ${DOCKER_REGISTRY-}netdockergoogleappengine
+    build:
+      context: .
+      dockerfile: NET_Docker_Google-_App_Engine/Dockerfile

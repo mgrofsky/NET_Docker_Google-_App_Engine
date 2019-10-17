@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_Docker_Google-_App_Engine", "NET_Docker_Google-_App_Engine\NET_Docker_Google-_App_Engine.csproj", "{278C2B5D-CBC3-40D8-8417-D2E2766B300C}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{51CF04C4-66AE-4CAF-98FA-BC5B45E6FF5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{278C2B5D-CBC3-40D8-8417-D2E2766B300C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278C2B5D-CBC3-40D8-8417-D2E2766B300C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{278C2B5D-CBC3-40D8-8417-D2E2766B300C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CF04C4-66AE-4CAF-98FA-BC5B45E6FF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CF04C4-66AE-4CAF-98FA-BC5B45E6FF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CF04C4-66AE-4CAF-98FA-BC5B45E6FF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CF04C4-66AE-4CAF-98FA-BC5B45E6FF5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
