@@ -71,6 +71,8 @@ EXPOSE 443
 
 **Build**
 
+Upload to cloudshell
+
 `docker build -f "NET_Docker_Google-_App_Engine/Dockerfile" -t net-sample-image .`
 
 **Tag**
