@@ -65,13 +65,17 @@ EXPOSE 443
 ```
 
 **Build**
+
 `docker build -f "NET_Docker_Google-_App_Engine/Dockerfile" -t net-sample-image .`
 
 **Tag**
+
 `docker tag net-sample-image gcr.io/<PORJECT NAME>/net-sample-image:v1`
 
 **Push to Container Registry**
+
 `docker push gcr.io/<PORJECT NAME>/net-sample-image:v1`
 
 **Workloads**
+
 Deploy your containerized application, expose the service and then set scaling and max surge as needed.
