@@ -51,3 +51,27 @@ WORKDIR /app
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://*:8080
 ```
+
+
+### Using in K8s
+
+Keep the default `EXPOSE` when adding in Docker support to a .NET web application:
+
+```
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+```
+
+**Build**
+`docker build -f "NET_Docker_Google-_App_Engine/Dockerfile" -t net-sample-image .`
+
+**Tag**
+`docker tag net-sample-image gcr.io/<PORJECT NAME>/net-sample-image:v1`
+
+**Push to Container Registry**
+`docker push gcr.io/<PORJECT NAME>/net-sample-image:v1`
+
+**Workloads**
+Deploy your containerized application, expose the service and then set scaling and max surge as needed.
