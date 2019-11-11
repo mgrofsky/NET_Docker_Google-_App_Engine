@@ -78,11 +78,11 @@ Upload to cloudshell
 
 **Tag**
 
-`docker tag net-sample-image gcr.io/<PORJECT NAME>/net-sample-image:v1`
+`docker tag net-sample-image gcr.io/<PROJECT NAME>/net-sample-image:v1`
 
 **Push to Container Registry**
 
-`docker push gcr.io/<PORJECT NAME>/net-sample-image:v1`
+`docker push gcr.io/<PROJECT NAME>/net-sample-image:v1`
 
 **Workloads**
 
