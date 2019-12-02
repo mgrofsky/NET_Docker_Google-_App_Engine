@@ -1,15 +1,10 @@
 ## .NET Web App in Google App Engine Flexible w/ Docker Support
 
 ___
-#### For K8s only Instruction scroll to the bottom
-
-___
-
-Microsoft has [changed](https://twitter.com/Code_Munkee/status/1172665448904548352?s=20 "changed").
 
 ### app.yaml
 
-This is is required to deploy to GAE Flexible. Runtime will be `custom` and env will be `flex`.
+This is required to deploy to GAE Flexible. Runtime will be `custom` and env will be `flex`.
 
 You can either add your service into the `app.yaml` or specify it in the `gcloud app deploy` command.
 
@@ -87,3 +82,7 @@ Upload to cloudshell
 **Workloads**
 
 Deploy your containerized application, expose the service and then set scaling and max surge as needed.
+
+___
+
+Microsoft has [changed](https://twitter.com/Code_Munkee/status/1172665448904548352?s=20 "changed").
